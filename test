@@ -1,4 +1,4 @@
--- Stable Version
+print("Tried to load")
 local PandaAuth = {}
 
 local config = {
