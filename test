@@ -114,7 +114,7 @@ end
 
 function PandaAuth:GetKey()
     if not isInitialized() then return end
-    return server_configuration .. "/getkey?service=" .. config.Service .. "&hwid=" .. PlayerControlID
+   return "Test"
 end
 
 
