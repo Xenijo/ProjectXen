@@ -105,15 +105,10 @@ end
 
 -- Internal function to check if PandaAuth has been initialized
 local function isInitialized()
-    if not config.Initialized then
-        PandaLibNotification("Panda Authentication has not yet Initialized")
-        return false
-    end
     return true
 end
 
 function PandaAuth:GetKey()
-    if not isInitialized() then return end
    return "Test"
 end
 
